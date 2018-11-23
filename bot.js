@@ -403,28 +403,28 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=515458972115927050&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add Speed Bot ✅
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__
 Server id: __${guild.id}__ 
 Server Count: __${guild.memberCount}__**`);
-client.channels.get("467833183254347797").sendEmbed(embed)
+client.channels.get("515497095906459648").sendEmbed(embed)
 });
 
 client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=515458972115927050&permissions=8&scope=bot')
   .setDescription(`**
    Server kicked Speed Bot :cry:
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__
 Server id: __${guild.id}__ 
 Server Count: __${guild.memberCount}__**`);
-client.channels.get("467833183254347797").sendEmbed(embed)
+client.channels.get("515497095906459648").sendEmbed(embed)
 });
  
 
@@ -1228,7 +1228,7 @@ if (!points[message.author.id]) points[message.author.id] = {
     message.channel.send(`**Sorry, Please Wait ${pretty(r, {verbose:true})}...**`).then(m => m.delete(5000));
     return;
     }
-    if ( message.content == prefix+'speed'){
+    if ( message.content == prefix+'black'){
        
         try{
 }catch(e){

@@ -1776,7 +1776,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: Succes The Message Has Been Sent To The Owners')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("Speed Bot")
+     .setFooter("BlaCk Bot")
                                                 
 
 message.channel.send(embed);
